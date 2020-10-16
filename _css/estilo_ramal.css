@@ -1,0 +1,208 @@
+@charset "UTF-8";
+@import url("http://fonts.googleapis.com/css?family=Titillium+Web");
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+
+}
+
+tr#imagem {
+    border-bottom: 5px rgba(186,31,45,.8) solid; /*Colocar uma linha na bordar de baixo*/
+    height: 100px; /*Local onde a borda está*/
+    margin-top: 20px;
+}
+
+/* Formatação de Textos*/
+
+
+div#interface {
+    width: 1200px; /*Tamanho da div interface*/
+    background-color: white; /*Colocar cor na div interface*/
+    margin: -20px auto 0px auto; /*Centralizando div interface*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, .5); /*Sombra div interface*/
+    padding: 10px 10px 10px 10px; /*Margem do texto dentro do objeto* - Se todos os cantos forem iguais, pode colocar só um 10px*/
+
+}
+
+p {text-align: justify; /*Justificar o texto dentro dos parágrafos*/
+    text-indent: 50px; /*Espaçamento do parágrafo*/
+}
+
+
+div#banner
+{
+
+margin: 0 auto;
+padding: 0;
+width: 1001px;
+height: 320px;
+//background: transparent url('../images/logo.png') no-repeat left bottom;
+
+
+}
+
+
+
+
+
+
+/* Formatação do Menu*/
+
+nav#Menu {
+    display: block;
+}
+
+/* Formatalçao Layout Pagina*/
+
+header#cabecalho-artigo h1{
+    font-family: 'Bubblegum Sans', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.direita {
+    text-align: right;
+}
+
+header#cabecalho-artigo h2{
+    font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3{
+    font-size: 12px;
+    color: #606060;
+}
+
+
+/* Formatalçao Layout Pagina*/
+img#imagem1{
+    width: 290px;
+    padding: 5px;
+}
+
+
+a#sugestao figure.foto-legenda {
+    display: block; /* Mostrar como um bloco*/
+    width: 300px; /*Largura*/
+    height: 400px;
+    float: left;
+    position:relative; /*Determina a posição do filtro utilizado*/
+    border: 8px solid white; /*Borda da imagem*/
+    box-shadow: 1px 1px 4px black; /*Sombra da imagem*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+a#sugestao figure.foto-legenda img {
+    width: 100%; /*Largura da imagem dentro do container*/
+    height: 100%; /*Altura da imagem dentro do container*/
+}
+
+a#sugestao figure.foto-legenda figcaption{
+    opacity: .4; /*Transparencia padrão da legenda da imagem*/
+    position:  absolute; /*Determina a posição do filtro utilizado dentro do container*/
+    top: 0px; /*Posição da legenda da imagem*/
+    background-color: rgba(186,31,45,.3);  /*Fundo da Legenda da Imagem utilizando transparencia*/
+    color: rgb(125,30,38); /*Cor da fonte da legenda*/
+    width: 100%; /*Largura da legenda dentro do container*/
+    height: 100%; /*Altura da legenda dentro do container*/
+    padding: 10px; /*Margem interna do objeto*/
+    box-sizing: border-box;
+    transition: opacity 1s; /*Tempo de demora do efeito*/
+}
+
+a#sugestao figure.foto-legenda:hover figcaption{
+    opacity: 1;
+}
+
+/*###############################*/
+a#reclamacao figure.foto-legenda2 {
+    display: block; /* Mostrar como um bloco*/
+    width: 300px; /*Largura*/
+    height: 400px;
+    float: right;
+    margin-right: 40px;
+    position: relative; /*Determina a posição do filtro utilizado*/
+    border: 8px solid white; /*Borda da imagem*/
+    box-shadow: 1px 1px 4px black; /*Sombra da imagem*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+a#reclamacao figure.foto-legenda2 img {
+    width: 100%; /*Largura da imagem dentro do container*/
+    height: 100%; /*Altura da imagem dentro do container*/
+}
+
+a#reclamacao figure.foto-legenda2 figcaption{
+    opacity: .4; /*Transparencia padrão da legenda da imagem*/
+    position:  absolute; /*Determina a posição do filtro utilizado dentro do container*/
+    top: 0px; /*Posição da legenda da imagem*/
+    background-color: rgba(186,31,45,.3); /*Fundo da Legenda da Imagem utilizando transparencia*/
+    color: rgb(125,30,38); /*Cor da fonte da legenda*/
+    width: 100%; /*Largura da legenda dentro do container*/
+    height: 100%; /*Altura da legenda dentro do container*/
+    padding: 10px; /*Margem interna do objeto*/
+    box-sizing: border-box;
+    transition: opacity 1s; /*Tempo de demora do efeito*/
+}
+
+a#reclamacao figure.foto-legenda2:hover figcaption{
+    opacity: 1;
+}
+/*############################*/
+
+a#elogio figure.foto-legenda3 {
+    display: block; /* Mostrar como um bloco*/
+    width: 300px; /*Largura*/
+    height: 400px;
+    float: right;
+    position: relative; /*Determina a posição do filtro utilizado*/
+    border: 8px solid white; /*Borda da imagem*/
+    box-shadow: 1px 1px 4px black; /*Sombra da imagem*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+a#elogio figure.foto-legenda3 img {
+    width: 100%; /*Largura da imagem dentro do container*/
+    height: 100%; /*Altura da imagem dentro do container*/
+}
+
+a#elogio figure.foto-legenda3 figcaption{
+    opacity: .4; /*Transparencia padrão da legenda da imagem*/
+    position:  absolute; /*Determina a posição do filtro utilizado dentro do container*/
+    top: 0px; /*Posição da legenda da imagem*/
+    background-color: rgba(186,31,45,.3); /*Fundo da Legenda da Imagem utilizando transparencia*/
+    color: rgb(125,30,38); /*Cor da fonte da legenda*/
+    width: 100%; /*Largura da legenda dentro do container*/
+    height: 100%; /*Altura da legenda dentro do container*/
+    padding: 10px; /*Margem interna do objeto*/
+    box-sizing: border-box;
+    transition: opacity 1s; /*Tempo de demora do efeito*/
+}
+
+a#elogio figure.foto-legenda3:hover figcaption{
+    opacity: 1;
+}
+
+/*############################*/
+
+
+footer#rodape {
+    margin-top: 100px;
+    clear: both; /*Define que o Rodapé será mostrado fora da divisão*/
+    border-top: 1px solid #606060; /*Inserir uma linha na borda de cima*/
+}
+
+footer#rodape p{
+    text-align: center;
+}

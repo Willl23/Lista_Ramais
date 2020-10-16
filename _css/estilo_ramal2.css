@@ -1,0 +1,96 @@
+
+
+
+body {
+  font: 75%/1.6 "Myriad Pro", Frutiger, "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Verdana, sans-serif;
+  
+}
+table {
+  border-collapse: collapse;
+  width: 50% !important;margin: auto;
+  border: px solid #666;
+  text-align: center;
+}
+thead {
+  background: #ccc url(https://www.devfuria.com.br/html-css/tabelas/bar.gif) repeat-x left center;
+  border-top: 0px solid rgba(186,31,45,.8);
+  border-bottom: 5px solid rgba(186,31,45,.8);
+}
+tr:hover {
+  background-color:#EFEDED;
+  color: #680103;
+}
+thead tr:hover {
+  background-color: transparent;
+  color: inherit;
+}
+tr:nth-child(even) {
+    background-color: #FAE5E5;
+}
+th {
+  font-weight: bold;
+  text-align: center;
+  font-size: 150%;
+  font-weight: 900;
+  
+  
+}
+th, td {
+  padding: 0.2em 1.5em;
+  
+}
+
+header#cabecalho h1 {
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'FonteLogo', sans-serif; /*Fonte do texto*/
+    font-size: 30pt; /*Tamanho fonte*/
+    color: rgba(186,31,45,.8);
+    text-shadow: 2px 4px 5px rgba(177, 162, 163, 0.6); /*Sombra*/
+    
+}
+
+header#cabecalho {
+  border-bottom: 5px rgba(186,31,45,.8) solid; /*Colocar uma linha na bordar de baixo*/
+  height: 100px; /*Local onde a borda está*/
+  margin-top: -100px;
+  background: url("_imagens\logo.png") no-repeat 0px .5px; /*Colocar uma imagem pelo css*/
+  
+  
+}
+
+footer#rodape {
+  margin-top: 100px;
+  clear: both; /*Define que o Rodapé será mostrado fora da divisão*/
+  border-top: 1px solid #606060; /*Inserir uma linha na borda de cima*/
+}
+
+footer#rodape p{
+  text-align: center;
+}
+
+
+div#interface {
+  width: 1000px; /*Tamanho da div interface*/
+  background-color: white; /*Colocar cor na div interface*/
+  margin: -20px auto 0px auto; /*Centralizando div interface*/
+  box-shadow: 0px 0px 10px rgba(207, 136, 136, 0.5); /*Sombra div interface*/
+  padding: 10px 10px 10px 10px; /*Margem do texto dentro do objeto* - Se todos os cantos forem iguais, pode colocar só um 10px*/
+  
+}
+
+h2 {
+  color: rgb(13, 15, 15);
+  font-size: 10pt;
+
+
+}
+
+td { /*propriedades do texto */
+  font-weight: 780;
+  font-size: 115%;
+  font-family: 'FonteLogo', sans-serif; /*Fonte do texto*/
+  padding: 20px;
+
+}
